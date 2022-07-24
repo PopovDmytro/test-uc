@@ -1,0 +1,40 @@
+:root {
+  --grey: #C7C7C7;
+  --card-bg: #FAFBFD;
+  --file-color: #C9D9B9;
+  --input-bg: white;
+  --shadow: 1px 1px 3px 3px rgba(0,0,0, 0.05);
+  --font-size: 16px;
+  --placeholder-color: var(--grey);
+  --border-radius: 3px;
+  --padding-x: 12px;
+  --padding-y: 8px;
+  --select-icon-color: #AAA;
+  --transition-time: 0.3s;
+  --divider-height: 16px;
+  --search-gap: 12px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+}

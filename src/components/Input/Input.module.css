@@ -1,0 +1,18 @@
+.Label {
+  position: relative;
+  flex-grow: 0;
+  transition: flex-grow var(--transition-time);
+}
+
+.Input {
+  border-radius: var(--border-radius);
+  border: none;
+  padding: var(--padding-y) 30px var(--padding-y) var(--padding-x);
+  font-size: var(--font-size);
+  outline: transparent; /* not good */
+  width: 100%;
+}
+
+.Input::placeholder {
+  color: var(--placeholder-color);
+}
