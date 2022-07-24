@@ -7,6 +7,7 @@
 .Input {
   border-radius: var(--border-radius);
   border: none;
+  margin: 0;
   padding: var(--padding-y) 30px var(--padding-y) var(--padding-x);
   font-size: var(--font-size);
   outline: transparent; /* not good */
